@@ -1,4 +1,3 @@
-#using addMinutes function
+#using ADF's minute function
 def minute_wrapper(inp):
-    otp = addMinutes(inp)
-    return otp
+    return minute(toTimestamp(inp))
