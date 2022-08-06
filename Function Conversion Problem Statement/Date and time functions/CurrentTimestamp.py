@@ -1,4 +1,3 @@
-# Using ADF timestamp function
-def timestamp_wrapper(inp):
-    otp = currentTimestamp(inp)
-    return otp
+# Using ADF currentTimestamp function
+def timestamp_wrapper():
+    return currentTimestamp()
