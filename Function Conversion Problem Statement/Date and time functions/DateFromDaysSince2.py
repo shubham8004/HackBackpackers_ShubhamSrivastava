@@ -1,4 +1,3 @@
 #Using ADF addDays function
-def DateFromDaysSince(inp):
-    otp = addDays(inp)
-    return otp
+def DateFromDaysSince(input_date_as_string, num_to_be_added):
+    return addDays(toDate(input_date_as_string), num_to_be_added)
